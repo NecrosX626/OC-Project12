@@ -1,9 +1,33 @@
 //COLORS
-$color-dark: #323232;
-$color-light: #D9D9D9;
+:root {
+  --color-dark: #323232;
+  --color-light: #d9d9d9;
+  --filter: invert(20%) sepia(0%) saturate(1068%) hue-rotate(162deg)
+    brightness(87%) contrast(92%);
+}
+.dark {
+  --color-dark: #d9d9d9;
+  --color-light: #323232;
+  --filter: invert(94%) sepia(0%) saturate(1331%) hue-rotate(200deg)
+    brightness(84%) contrast(118%);
+}
+
 //FONT-SIZES
 $fs-xsmall: 16px;
 $fs-small: 20px;
 $fs-medium: 24px;
 $fs-large: 32px;
 $fs-xlarge: 40px;
+
+$desktop-xl: 46px;
+$desktop-l: 32px;
+$desktop-m: 28px;
+$desktop-s: 24px;
+$desktop-xs: 18px;
+$desktop-xxs: 12px;
+
+$mobile-xl: 24px;
+$mobile-l: 20px;
+$mobile-m: 16px;
+$mobile-s: 12px;
+$mobile-xs: 10px;

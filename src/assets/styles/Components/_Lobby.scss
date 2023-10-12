@@ -1,21 +1,23 @@
-.lobby{
-    justify-content: center;
-    &__content{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 1em;
-        img{
-            width: 25%;
-            border-radius: 50%;
-            box-shadow: 0 0 1em 0.25em white;
-        }
-        span{
-            font-size: $fs-small;
-            opacity: 0.5;
-        }
-        h2{
-            font-style: italic;
-        }
+.lobby {
+  justify-content: center;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    img {
+      width: 25%;
+      border-radius: 50%;
+      box-shadow: 0 0 1em 0.25em var(--color-dark);
+      border: solid 0.25em var(--color-dark);
     }
+    span {
+      font-size: $desktop-s;
+      opacity: 0.5;
+    }
+    h2 {
+      font-style: italic;
+      font-size: $desktop-m;
+    }
+  }
 }

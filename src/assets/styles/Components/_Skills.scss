@@ -3,24 +3,29 @@
   &__list {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-    gap: 2em;
+    justify-content: space-between;
+    align-items: center;
     margin: auto;
   }
-  &__element{
-    background-color: $color-light;
+  &__element {
     border-radius: 50%;
+    border: solid 0.25em var(--color-dark);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.5em;
+    padding: 1em;
     width: 10em;
     height: 10em;
+    transition: width 250ms, height 250ms;
     img {
-        width: 75%;
-      }
-    &:hover{
-      box-shadow: 0 0 1em 0.25em $color-light;
+      width: 75%;
+      background-clip: var(--color-dark);
+      filter: var(--filter);
+    }
+    &:hover {
+      width: 12em;
+      height: 12em;
+      box-shadow: 0 0 1em 0.05em var(--color-dark);
     }
   }
 }

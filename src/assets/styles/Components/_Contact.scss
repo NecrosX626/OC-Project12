@@ -1,49 +1,37 @@
-.contact{
-    gap: 4em;
-    &__content{
-        font-size: $fs-medium;
-        margin: auto;
-        height: 75%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 15%;
-        img{
-            width: 35%;
-        }
+.contact {
+  &__content {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    img {
+      align-self: flex-start;
+      width: 25%;
+      filter: var(--filter);
     }
-    &__form{
-        display: flex;
-        flex-direction: column;
-        width: 35%;
-        gap: 2em;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 2em;
+  }
+  &__input {
+    display: flex;
+    justify-content: space-between;
+    input,
+    textarea {
+      width: 70%;
     }
-    &__input{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        input{
-            width: 70%;
-            height: 2em;
-            background-color: $color-light;
-            border: none;
-            border-radius: 1em;
-        }
-        #message{
-            height: 6em;
-        }
+    #message {
+      height: 10em;
     }
-    button{
-        width: max-content;
-        padding: 1em;
-        margin: auto;
-        background-color: $color-light;
-        color: $color-dark;
-        border-radius: 1em;
-        border: none;
-        &:hover{
-            box-shadow: 0 0 1em 0.25em $color-light;
-        }
+  }
+  button {
+    align-self: end;
+    &:hover {
+      box-shadow: 0 0 1em 0.25em var(--color-dark);
     }
+  }
 }

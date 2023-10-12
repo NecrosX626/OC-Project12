@@ -1,12 +1,12 @@
 import profilePic from "../images/ProfilePic.jpg"
 
-function Lobby() {
+function Lobby({lobbyRef}) {
     return (
-        <section className="lobby" id="lobby">
+        <section className="lobby" id="lobby" ref={lobbyRef}>
             <div className="lobby__content">
                 <img src={profilePic} alt="Profile"></img>
                 <h1>Mathieu <span className="pseudo">&#40;NecodZ&#41;</span> ESDRAS</h1>
-                <h2>FRONT-END DEVELOPER</h2>
+                <h2>&lt;FRONT-END DEVELOPER&gt;</h2>
             </div>
         </section>
     )

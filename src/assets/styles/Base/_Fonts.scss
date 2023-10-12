@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  font-family: "Lato";
+  letter-spacing: 2px;
+  line-height: 36px;
+  font-weight: 500;
+  color: var(--color-dark);
+}
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+:-moz-placeholder {
+  font-style: italic;
+}
+::-moz-placeholder {
+  font-style: italic;
+}
+:-ms-input-placeholder {
+  font-style: italic;
+}
+h1 {
+  font-size: $desktop-xl;
+}
+h2 {
+  font-size: $desktop-l;
+}
+h3 {
+  font-size: $desktop-m;
+}
+p,
+label {
+  font-size: $desktop-s;
+}
+.date {
+  font-size: $desktop-xs;
+  font-style: italic;
+}
+.tag {
+  font-size: $desktop-xxs;
+}

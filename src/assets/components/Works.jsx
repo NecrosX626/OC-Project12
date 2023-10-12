@@ -1,6 +1,27 @@
 import ohMyFoodImg from "../images/Works/OhMyFood.png";
+import kasaImg from "../images/Works/Kasa.png";
+import argentBankImg from "../images/Works/Argent Bank.png";
+import { useEffect } from "react";
+function Works({ worksRef }) {
 
-function Works() {
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      const works = entry.target.querySelectorAll(".work__element")
+      works.forEach((work) =>{
+        if (entry.isIntersecting) {
+          work.classList.add("animation");
+        } else {
+          work.classList.remove("animation");
+        }
+      })
+      
+    });
+  });
+
+  useEffect(() => {
+    observer.observe(document.querySelector(".work__list"));
+  }, []);
+
   const worksList = [
     {
       title: "OhMyFood",
@@ -12,31 +33,33 @@ function Works() {
     {
       title: "Kasa",
       date: "mm.aaaa",
-      tags: ["React", "API Fetch", "Responsive"],
-      imageSrc: ohMyFoodImg,
+      tags: ["React", "Fetch API", "Responsive"],
+      imageSrc: kasaImg,
       imageAlt: "Kasa Thumbnail",
     },
     {
-      title: "Argent Bank",
+      title: "ArgentBank",
       date: "mm.aaaa",
       tags: ["React", "Redux", "Swagger Editor"],
-      imageSrc: ohMyFoodImg,
-      imageAlt: "Argent Bank Thumbnail",
+      imageSrc: argentBankImg,
+      imageAlt: "ArgentBank Thumbnail",
     },
   ];
   return (
-    <section className="work" id="work">
+    <section className="work" id="work" ref={worksRef}>
       <h2>MY WORK</h2>
       <ul className="work__list">
         {worksList.map((work) => (
-          <li key={work.title} className="work__element">
+          <li key={work.title} className={"work__element " + work.title}>
             <img src={work.imageSrc} alt={work.imageAlt}></img>
             <div className="work__details">
-              <p>{work.date}</p>
+              <p className="date">{work.date}</p>
               <h3>{work.title}</h3>
-              <ul className="work__tags">
+              <ul className="work__tagsList">
                 {work.tags.map((tag, index) => (
-                  <li key={tag + index}className="work__tag">{tag}</li>
+                  <li key={tag + index} className="tag">
+                    {tag}
+                  </li>
                 ))}
               </ul>
             </div>
@@ -47,4 +70,4 @@ function Works() {
   );
 }
 
-export default Works
+export default Works;

@@ -1,0 +1,20 @@
+@keyframes slideIn{
+    0%{
+        transform: translateY(150%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.OhMyFood.animation {
+    animation: slideIn 250ms forwards;
+}
+.Kasa.animation {
+    animation: slideIn 250ms 500ms forwards;
+}
+.ArgentBank.animation {
+    animation: slideIn 250ms 250ms forwards;
+}

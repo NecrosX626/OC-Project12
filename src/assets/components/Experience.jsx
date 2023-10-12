@@ -1,4 +1,4 @@
-function Experience() {
+function Experience({experienceRef}) {
   const experienceList = [
     {
       title: "Formation Intégrateur Web - OpenClassrooms",
@@ -11,14 +11,14 @@ function Experience() {
   ];
 
   return (
-    <section className="experience" id="experience">
+    <section className="experience" id="experience" ref={experienceRef}>
       <h2>MY EXPERIENCE</h2>
       <ul className="experience__list">
         {experienceList.map((experience) => (
           <li key={experience.title} className="experience__element">
-            <h3>{experience.title}</h3>
+            <p className="experience__name">{experience.title}</p>
             <hr />
-            <p>{experience.date}</p>
+            <p className="date">{experience.date}</p>
           </li>
         ))}
       </ul>
