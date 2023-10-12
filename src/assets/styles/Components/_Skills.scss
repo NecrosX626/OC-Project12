@@ -1,0 +1,26 @@
+.skills {
+  height: 50%;
+  &__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+    margin: auto;
+  }
+  &__element{
+    background-color: $color-light;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    width: 10em;
+    height: 10em;
+    img {
+        width: 75%;
+      }
+    &:hover{
+      box-shadow: 0 0 1em 0.25em $color-light;
+    }
+  }
+}
