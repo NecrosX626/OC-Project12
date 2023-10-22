@@ -1,4 +1,6 @@
 .lobby {
+  background-image: var(--background);
+  background-size: contain;
   justify-content: center;
   &__content {
     display: flex;

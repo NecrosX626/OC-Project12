@@ -1,6 +1,6 @@
 @keyframes slideIn{
     0%{
-        transform: translateY(150%);
+        transform: translateY(200%);
         opacity: 0;
     }
     100%{
@@ -13,8 +13,8 @@
     animation: slideIn 250ms forwards;
 }
 .Kasa.animation {
-    animation: slideIn 250ms 500ms forwards;
+    animation: slideIn 250ms 250ms forwards;
 }
 .ArgentBank.animation {
-    animation: slideIn 250ms 250ms forwards;
+    animation: slideIn 250ms 500ms forwards;
 }

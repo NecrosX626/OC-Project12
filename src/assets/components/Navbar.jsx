@@ -7,58 +7,48 @@ function Navbar({ lobbyRef, worksRef, experienceRef, contactRef }) {
     });
   };
 
-  let initialPos = window.scrollY;
-  const scrollDown = () => {
-    const newPos = window.scrollY;
-    if (newPos > 0) {
-      scrollTo(worksRef.current);
-    }
-    if (newPos > worksRef.current.offsetTop) {
-      scrollTo(experienceRef.current);
-    }
-    if (newPos > experienceRef.current.offsetTop) {
-      scrollTo(contactRef.current);
-    }
-  };
-  const scrollUp = () => {
-    if (initialPos <= contactRef.current.offsetTop) {
-      scrollTo(experienceRef.current);
-    }
-    if (initialPos <= experienceRef.current.offsetTop) {
-      scrollTo(worksRef.current);
-    }
-    if (initialPos <= worksRef.current.offsetTop) {
-      scrollTo(lobbyRef.current);
-    }
-  };
-  window.onscroll = () => {
-    if (initialPos < window.scrollY){
-      scrollDown()
-    }
-    else{
-      scrollUp()
-    }
-    initialPos = window.scrollY
-  } 
-
-  //const refPos = [lobbyRef, worksRef, experienceRef, contactRef];
-  // window.addEventListener("scroll", () => {
-  //   const oldPos = window.scrollY
-  //   //console.log("old: "+initialPos, "new: "+updatedPos)
-  //   if (updatedPos > initialPos) {
-  //     //scrollDown()
+  // let initialPos = window.scrollY;
+  // const scrollDown = () => {
+  //   const newPos = window.scrollY;
+  //   if (newPos > 0) {
+  //     scrollTo(worksRef.current);
   //   }
-  //   if (updatedPos < initialPos) {
-  //     console.log("old: "+initialPos, "new: "+updatedPos)
+  //   if (newPos > worksRef.current.offsetTop) {
+  //     scrollTo(experienceRef.current);
+  //   }
+  //   if (newPos > experienceRef.current.offsetTop) {
+  //     scrollTo(contactRef.current);
+  //   }
+  // };
+  // const scrollUp = () => {
+  //   if (initialPos <= contactRef.current.offsetTop) {
+  //     scrollTo(experienceRef.current);
+  //   }
+  //   if (initialPos <= experienceRef.current.offsetTop) {
+  //     scrollTo(worksRef.current);
+  //   }
+  //   if (initialPos <= worksRef.current.offsetTop) {
+  //     scrollTo(lobbyRef.current);
+  //   }
+  // };
+  // window.onscroll = () => {
+  //   if (initialPos < window.scrollY){
+  //     scrollDown()
+  //   }
+  //   else{
   //     scrollUp()
   //   }
-  // })
+  //   initialPos = window.scrollY
+  // } 
+
 
   const switchTheme = () => {
-    const app = document.getElementById("app");
     const themeIcon = document.querySelector(".themeswitch");
-    console.log("themeSwitch");
+    const app = document.getElementById("app");
+    const lobby = document.getElementById("lobby")
     app.classList.toggle("dark");
+    lobby.classList.toggle("dark");
+
     if (app.classList.contains("dark")) {
       themeIcon.classList = "fa-solid fa-sun fa-xl themeswitch";
     } else {

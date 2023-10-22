@@ -1,11 +1,12 @@
 .skills {
-  height: 50%;
+  height: 60%;
   &__list {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: auto;
+    gap: 2em;
   }
   &__element {
     border-radius: 50%;
@@ -13,18 +14,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em;
-    width: 10em;
-    height: 10em;
+    padding: 2.5%;
     transition: width 250ms, height 250ms;
     img {
-      width: 75%;
+      width: 100%;
       background-clip: var(--color-dark);
       filter: var(--filter);
     }
     &:hover {
-      width: 12em;
-      height: 12em;
       box-shadow: 0 0 1em 0.05em var(--color-dark);
     }
   }

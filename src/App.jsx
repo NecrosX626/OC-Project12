@@ -9,7 +9,7 @@ import Navbar from "./assets/components/Navbar";
 import Contact from "./assets/components/Contact";
 //Styles Imports
 import "./assets/styles/style.css";
-import "normalize.css";
+//import "normalize.css";
 
 function App() {
   const lobbyRef = useRef(null);
@@ -18,7 +18,7 @@ function App() {
   const contactRef = useRef(null);
 
   return (
-    <div className="App" id="app">
+    <div className="app" id="app">
       <Lobby lobbyRef={lobbyRef} />
       <Works worksRef={worksRef} />
       <Experience experienceRef={experienceRef} />

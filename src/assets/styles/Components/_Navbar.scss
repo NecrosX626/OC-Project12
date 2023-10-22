@@ -1,9 +1,11 @@
 nav {
   display: flex;
   position: fixed;
+  align-items: center;
   bottom: 0;
   z-index: 3;
   width: 100%;
+  height: 10%;
   padding: 1em 4em;
   box-shadow: 0 0 1em 0.05em var(--color-dark);
   background-color: var(--color-light);
@@ -11,18 +13,19 @@ nav {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    height: 100%;
     li {
       display: flex;
       justify-content: center;
       align-items: center;
       border: solid 0.05em var(--color-dark);
-      width: 3em;
-      height: 3em;
+      width: 5%;
       border-radius: 50%;
       &:hover {
         box-shadow: 0 0 1em 0.05em var(--color-dark);
       }
       .fa-solid {
+        font-size: $desktop-xl;
         color: var(--color-dark);
         cursor: pointer;
       }

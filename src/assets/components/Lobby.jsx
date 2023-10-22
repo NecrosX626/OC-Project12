@@ -1,6 +1,7 @@
 import profilePic from "../images/ProfilePic.jpg"
 
 function Lobby({lobbyRef}) {
+
     return (
         <section className="lobby" id="lobby" ref={lobbyRef}>
             <div className="lobby__content">

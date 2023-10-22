@@ -1,3 +1,11 @@
+//LOBBY BACKGROUND
+.lobby {
+  --background: url("../images/BackgroundLight.png")
+}
+.dark {
+  --background: url("../images/BackgroundDark.png")
+}
+
 //COLORS
 :root {
   --color-dark: #323232;
@@ -13,12 +21,6 @@
 }
 
 //FONT-SIZES
-$fs-xsmall: 16px;
-$fs-small: 20px;
-$fs-medium: 24px;
-$fs-large: 32px;
-$fs-xlarge: 40px;
-
 $desktop-xl: 46px;
 $desktop-l: 32px;
 $desktop-m: 28px;
@@ -31,3 +33,4 @@ $mobile-l: 20px;
 $mobile-m: 16px;
 $mobile-s: 12px;
 $mobile-xs: 10px;
+$mobile-xxs: 8px;
