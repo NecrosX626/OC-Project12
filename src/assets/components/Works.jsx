@@ -1,25 +1,7 @@
 import ohMyFoodImg from "../images/Works/OhMyFood.png";
 import kasaImg from "../images/Works/Kasa.png";
 import argentBankImg from "../images/Works/Argent Bank.png";
-import { useEffect } from "react";
 function Works({ worksRef }) {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      const works = entry.target.querySelectorAll(".work__element");
-      works.forEach((work) => {
-        if (entry.isIntersecting) {
-          work.classList.add("animation");
-        } else {
-          work.classList.remove("animation");
-        }
-      });
-    });
-  });
-
-  useEffect(() => {
-    observer.observe(document.querySelector(".work__list"));
-  }, [observer]);
-
   const worksList = [
     {
       title: "OhMyFood",
