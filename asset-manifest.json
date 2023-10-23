@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/NecrosX626/OC-Project12/static/css/main.f2f26302.css",
-    "main.js": "/NecrosX626/OC-Project12/static/js/main.d869379f.js",
-    "static/media/Kasa.png": "/NecrosX626/OC-Project12/static/media/Kasa.f4800696d617fd2889dd.png",
-    "static/media/OhMyFood.png": "/NecrosX626/OC-Project12/static/media/OhMyFood.4a1df7766a0d9d8b67a1.png",
-    "static/media/BackgroundLight.png": "/NecrosX626/OC-Project12/static/media/BackgroundLight.b5e6d1f48c5635f76433.png",
-    "static/media/BackgroundDark.png": "/NecrosX626/OC-Project12/static/media/BackgroundDark.69af7b7908d05a505eb1.png",
-    "static/media/Argent Bank.png": "/NecrosX626/OC-Project12/static/media/Argent Bank.afefb0e4af2eb37ebb0c.png",
-    "static/media/ProfilePic.jpg": "/NecrosX626/OC-Project12/static/media/ProfilePic.51c9761a4dcbd052fdcc.jpg",
-    "static/media/react.png": "/NecrosX626/OC-Project12/static/media/react.b245dd69369c3c928c93.png",
-    "static/media/sass.png": "/NecrosX626/OC-Project12/static/media/sass.08d37bc95f72016c9e89.png",
-    "static/media/redux.png": "/NecrosX626/OC-Project12/static/media/redux.fb15abb572c30b92f5f5.png",
-    "static/media/css.png": "/NecrosX626/OC-Project12/static/media/css.057824248a2a2ff5b9d2.png",
-    "static/media/html.png": "/NecrosX626/OC-Project12/static/media/html.7d23e4da3fa74ac84ebe.png",
-    "index.html": "/NecrosX626/OC-Project12/index.html",
-    "main.f2f26302.css.map": "/NecrosX626/OC-Project12/static/css/main.f2f26302.css.map",
-    "main.d869379f.js.map": "/NecrosX626/OC-Project12/static/js/main.d869379f.js.map"
+    "main.css": "/OC-Project12/static/css/main.704ce7e9.css",
+    "main.js": "/OC-Project12/static/js/main.e10d8176.js",
+    "static/media/Kasa.png": "/OC-Project12/static/media/Kasa.f4800696d617fd2889dd.png",
+    "static/media/OhMyFood.png": "/OC-Project12/static/media/OhMyFood.4a1df7766a0d9d8b67a1.png",
+    "static/media/BackgroundLight.png": "/OC-Project12/static/media/BackgroundLight.b5e6d1f48c5635f76433.png",
+    "static/media/BackgroundDark.png": "/OC-Project12/static/media/BackgroundDark.69af7b7908d05a505eb1.png",
+    "static/media/Argent Bank.png": "/OC-Project12/static/media/Argent Bank.afefb0e4af2eb37ebb0c.png",
+    "static/media/ProfilePic.jpg": "/OC-Project12/static/media/ProfilePic.51c9761a4dcbd052fdcc.jpg",
+    "static/media/react.png": "/OC-Project12/static/media/react.b245dd69369c3c928c93.png",
+    "static/media/sass.png": "/OC-Project12/static/media/sass.08d37bc95f72016c9e89.png",
+    "static/media/redux.png": "/OC-Project12/static/media/redux.fb15abb572c30b92f5f5.png",
+    "static/media/css.png": "/OC-Project12/static/media/css.057824248a2a2ff5b9d2.png",
+    "static/media/html.png": "/OC-Project12/static/media/html.7d23e4da3fa74ac84ebe.png",
+    "index.html": "/OC-Project12/index.html",
+    "main.704ce7e9.css.map": "/OC-Project12/static/css/main.704ce7e9.css.map",
+    "main.e10d8176.js.map": "/OC-Project12/static/js/main.e10d8176.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2f26302.css",
-    "static/js/main.d869379f.js"
+    "static/css/main.704ce7e9.css",
+    "static/js/main.e10d8176.js"
   ]
 }
