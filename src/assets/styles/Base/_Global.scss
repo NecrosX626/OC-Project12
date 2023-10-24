@@ -8,6 +8,9 @@
 *:focus {
   outline: none;
 }
+a{
+  text-decoration: none;
+}
 button {
   border: none;
   width: max-content;
@@ -39,4 +42,5 @@ section {
   text-align: center;
   background-color: var(--color-light);
   padding: 4em;
+  border-bottom: solid 0.1em black;
 }

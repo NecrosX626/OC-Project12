@@ -44,6 +44,7 @@
   .work {
     &__list {
       flex-direction: column;
+      height: 80%;
     }
     &__element {
       width: 100%;
@@ -55,6 +56,12 @@
     &__details {
       padding: 1em;
       opacity: 0.95;
+      i{
+        font-size: $mobile-l;
+      }
+    }
+    &__desc{
+      font-size: $mobile-s;
     }
     h3 {
       font-size: $mobile-xl;
@@ -134,6 +141,12 @@
     height: 2.5em;
     .fa-solid {
       font-size: $mobile-l;
+    }
+  }
+  //WORKS
+  .work {
+    &__desc{
+      display: none;
     }
   }
   //SKILLS
