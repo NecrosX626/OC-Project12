@@ -1,6 +1,7 @@
 import emailImg from "../images/Email.png";
 
 function Contact({contactRef}) {
+  
   return (
     <section className="contact" id="contact" ref={contactRef}>
       <h2>CONTACT ME</h2>

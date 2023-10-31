@@ -3,6 +3,8 @@ import kasaImg from "../images/Works/Kasa.png";
 import argentBankImg from "../images/Works/Argent Bank.png";
 import { useEffect } from "react";
 function Works({ worksRef }) {
+  
+  //Animation Works Observer
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       const works = entry.target.querySelectorAll(".work__element");
@@ -15,7 +17,6 @@ function Works({ worksRef }) {
       });
     });
   });
-
   useEffect(() => {
     observer.observe(document.querySelector(".work__list"));
   }, [observer]);
@@ -52,31 +53,7 @@ function Works({ worksRef }) {
       site: "",
     },
   ];
-  // return (
-  //   <section className="work" id="work" ref={worksRef}>
-  //     <h2>MY WORK</h2>
-  //     <ul className="work__list">
-  //       {worksList.map((work) => (
-  //         <li key={work.title} className={"work__element " + work.title}>
-  //           <a href={work.git}>
-  //             <img src={work.imageSrc} alt={work.imageAlt} />
-  //             <div className="work__details">
-  //               <p className="date">{work.date}</p>
-  //               <h3>{work.title}</h3>
-  //               <ul className="work__tagsList">
-  //                 {work.tags.map((tag, index) => (
-  //                   <li key={tag + index} className="tag">
-  //                     {tag}
-  //                   </li>
-  //                 ))}
-  //               </ul>
-  //             </div>
-  //           </a>
-  //         </li>
-  //       ))}
-  //     </ul>
-  //   </section>
-  // );
+
   return (
     <section className="work" id="work" ref={worksRef}>
       <h2>MY WORK</h2>

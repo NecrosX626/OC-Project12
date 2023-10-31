@@ -6,6 +6,7 @@ import logoREACT from "../images/Skills/react.png";
 import logoREDUX from "../images/Skills/redux.png";
 
 function Skills() {
+  
   const skillsList = [
     logoHTML,
     logoCSS,
@@ -14,6 +15,7 @@ function Skills() {
     logoREACT,
     logoREDUX,
   ];
+
   return (
     <section className="skills">
       <h2>MY SKILLS</h2>
