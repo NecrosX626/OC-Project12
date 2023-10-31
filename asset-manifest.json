@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/OC-Project12/static/css/main.704ce7e9.css",
-    "main.js": "/OC-Project12/static/js/main.e10d8176.js",
+    "main.css": "/OC-Project12/static/css/main.14188b8b.css",
+    "main.js": "/OC-Project12/static/js/main.db8aff5b.js",
     "static/media/Kasa.png": "/OC-Project12/static/media/Kasa.f4800696d617fd2889dd.png",
     "static/media/OhMyFood.png": "/OC-Project12/static/media/OhMyFood.4a1df7766a0d9d8b67a1.png",
     "static/media/BackgroundLight.png": "/OC-Project12/static/media/BackgroundLight.b5e6d1f48c5635f76433.png",
@@ -14,11 +14,11 @@
     "static/media/css.png": "/OC-Project12/static/media/css.057824248a2a2ff5b9d2.png",
     "static/media/html.png": "/OC-Project12/static/media/html.7d23e4da3fa74ac84ebe.png",
     "index.html": "/OC-Project12/index.html",
-    "main.704ce7e9.css.map": "/OC-Project12/static/css/main.704ce7e9.css.map",
-    "main.e10d8176.js.map": "/OC-Project12/static/js/main.e10d8176.js.map"
+    "main.14188b8b.css.map": "/OC-Project12/static/css/main.14188b8b.css.map",
+    "main.db8aff5b.js.map": "/OC-Project12/static/js/main.db8aff5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.704ce7e9.css",
-    "static/js/main.e10d8176.js"
+    "static/css/main.14188b8b.css",
+    "static/js/main.db8aff5b.js"
   ]
 }
