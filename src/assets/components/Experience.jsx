@@ -3,7 +3,7 @@ function Experience({experienceRef}) {
   const experienceList = [
     {
       title: "Formation Intégrateur Web - OpenClassrooms",
-      date: "mm.aaaa - mm.aaaa",
+      date: "02.2023 - 11.2023",
     },
     {
       title: "Projet Micro-Folies - Service Civique",
