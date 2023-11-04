@@ -7,7 +7,7 @@ function Experience({experienceRef}) {
     },
     {
       title: "Projet Micro-Folies - Service Civique",
-      date: "mm.aaaa - mm.aaaa",
+      date: "10.2019 - 07.2020",
     },
   ];
 
