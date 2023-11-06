@@ -40,7 +40,7 @@ function Works({ worksRef }) {
       imageAlt: "Kasa Thumbnail",
       description: "Site de location entre particuliers. Un projet React demandant de communiquer avec le back-end pour récuperer les informations des differentes locations.",
       git: "https://github.com/NecrosX626/OC-Projet8",
-      site: "https://necrosx626.github.io/OC-Projet8/",
+      site: "https://github.com/NecrosX626/OC-Projet8",
     },
     {
       title: "ArgentBank",
@@ -50,7 +50,7 @@ function Works({ worksRef }) {
       imageAlt: "ArgentBank Thumbnail",
       description: "Site d'une banque en ligne. Un projet autour de Redux avec une gestion du state pour la connexion des utilisateurs et l'acces a leurs informations.",
       git: "https://github.com/NecrosX626/OC-Projet11",
-      site: "https://necrosx626.github.io/OC-Projet11/",
+      site: "https://github.com/NecrosX626/OC-Projet11",
     },
   ];
 
